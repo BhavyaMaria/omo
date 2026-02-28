@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.location {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.map {
+  margin-top: 12px;
+  height: 400px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+  position: relative;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .map {
+    height: 500px;
+  }
+}
+
+.marker {
+  position: absolute;
+  font-size: 24px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.user {
+  left: 18%;
+  bottom: 18%;
+  color: #000;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car {
+  left: 45%;
+  bottom: 32%;
+  color: #9EDAE5;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dest {
+  right: 16%;
+  top: 16%;
+  color: #fff;
+  background: #9EDAE5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.route {
+  position: absolute;
+  left: 20%;
+  right: 18%;
+  top: 30%;
+  bottom: 22%;
+  border-radius: 999px;
+  border: 4px solid #9EDAE5;
+  background: linear-gradient(45deg, #9EDAE5 0%, transparent 100%);
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgba(158, 218, 229, 0.5);
+}
+
+.mapGrid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(200, 200, 200, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 200, 200, 0.3) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.5;
+}
+
+.routeInfo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.friendCard {
+  margin-top: 14px;
+  border-radius: 18px;
+  padding: 10px 12px;
+  background: #ffffff10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.friendEmoji {
+  font-size: 20px;
+  color: #9EDAE5;
+}
+
+.friendText {
+  font-size: 13px;
+}
+
+.arrived {
+  margin-top: 14px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addStop {
+  font-size: 13px;
+}
+

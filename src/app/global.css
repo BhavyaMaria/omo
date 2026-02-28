@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #3ecbeb;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 900px;
+}
+

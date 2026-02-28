@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.chat {
+  flex: 1;
+  min-height: 180px;
+  max-height: 260px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow-y: auto;
+}
+
+.placeholder {
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.input {
+  flex: 1;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 12px;
+  font-size: 13px;
+  background: rgba(0, 0, 0, 0.2);
+  color: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #9edae5;
+}
+
+.send {
+  border-radius: 999px;
+  border: none;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  background: #9edae5;
+  color: #000;
+  font-weight: 600;
+}
+
+.botRow {
+  display: flex;
+  gap: 8px;
+}
+
+.bot {
+  flex: 1;
+  border-radius: 999px;
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+}
+
+.botActive {
+  background: #9edae5;
+  color: #000;
+}
+
+.message {
+  font-size: 13px;
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  border-radius: 14px;
+  max-width: 80%;
+}
+
+.fromYou {
+  align-self: flex-end;
+  background: #9edae5;
+  color: #000;
+}
+
+.fromBot {
+  align-self: flex-start;
+  background: rgba(255, 255, 255, 0.06);
+}
+

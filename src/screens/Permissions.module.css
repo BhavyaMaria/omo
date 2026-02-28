@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.subtitle {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.card {
+  margin-top: 4px;
+  border-radius: 20px;
+  padding: 14px 16px;
+  background: #ffffff0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cardTitle {
+  font-size: 16px;
+}
+
+.cardText {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.error {
+  font-size: 11px;
+  color: #ffb3b3;
+  margin-top: 6px;
+}
+
+.toggleRow {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.continue {
+  margin-top: 8px;
+}
+
